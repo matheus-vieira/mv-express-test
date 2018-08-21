@@ -7,7 +7,7 @@ gulp.task('default', function () {
         script: 'app.js',
         ext: 'js',
         env: {
-            PORT: 8000
+            PORT: 80
         },
         ignore: ['./node_modules/**']
     })
@@ -18,7 +18,5 @@ gulp.task('default', function () {
 
 gulp.task('test', function () {
     gulp.src('tests/*.js')
-    .pipe(gulpMocha({
-        reporter: 'nyan'
-    }));
+    .pipe(gulpMocha({ reporter: 'nyan' }));
 });
