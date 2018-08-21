@@ -18,6 +18,7 @@
     "express": "^4.16.3",
     "github-api": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
     "gulp-nodemon": "^2.2.1",
     "module-alias": "^2.1.0"
   }
